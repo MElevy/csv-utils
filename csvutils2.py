@@ -26,6 +26,3 @@ def read(csv):
 		csv_values.append(csv_row)
 	f.close()
 	return csv_values
-if __name__=='__main__':
-	write_row('test.csv',1,2,3,4,5)
-	write_row('test.csv',None,8,3,'hi',a=True)
